@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11dcc4b8.chunk.css",
+    "main.js": "/static/js/main.387d2c3a.chunk.js",
+    "main.js.map": "/static/js/main.387d2c3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38d8eafb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38d8eafb.js.map",
+    "static/js/2.77a83afc.chunk.js": "/static/js/2.77a83afc.chunk.js",
+    "static/js/2.77a83afc.chunk.js.map": "/static/js/2.77a83afc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.11dcc4b8.chunk.css.map": "/static/css/main.11dcc4b8.chunk.css.map",
+    "static/js/2.77a83afc.chunk.js.LICENSE.txt": "/static/js/2.77a83afc.chunk.js.LICENSE.txt",
+    "static/media/CardsDetalleId.css": "/static/media/fondoDetalle.c895fa36.jpg",
+    "static/media/index.css": "/static/media/fondoLandingdos.95e3af15.jpg",
+    "static/media/loading.c8ea7b8a.gif": "/static/media/loading.c8ea7b8a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38d8eafb.js",
+    "static/js/2.77a83afc.chunk.js",
+    "static/css/main.11dcc4b8.chunk.css",
+    "static/js/main.387d2c3a.chunk.js"
+  ]
+}
