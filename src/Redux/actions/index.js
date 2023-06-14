@@ -15,13 +15,13 @@ export const CLEAR_CARD_DETALLE = 'CLEAR_CARD_DETALLE';
 export function getAllDogs(name) {
     return async function(dispatch){
         if(name){
-            const dogByName= await axios.get('/dogs?name=' + name );
+            const dogByName= await axios.get('https://backpidogs-f55k.onrender.com/dogs?name=' + name );
         return dispatch({
             type: GET_DOG_BY_NAME,
             payload: dogByName.data
         })
         }
-        const dogs= await axios.get('/dogs');
+        const dogs= await axios.get('https://backpidogs-f55k.onrender.com/dogs');
        
         return dispatch({
             type: GET_ALL_DOGS,
@@ -32,7 +32,7 @@ export function getAllDogs(name) {
 
 export function getDogById(dogId){
     return async function(dispatch){
-            const dogById= await axios.get('/dogs/' + dogId);
+            const dogById= await axios.get('https://backpidogs-f55k.onrender.com/dogs/' + dogId);
             //console.log("ididid", typeof (dogId), dogId);
             //console.log("HOLA SOY TU DATA DE ID!", dogById.data);
         return dispatch({
@@ -45,7 +45,7 @@ export function getDogById(dogId){
 
 export function getTemperaments(){
     return async function (dispatch){
-            const temperaments = await axios.get('/temper');
+            const temperaments = await axios.get('https://backpidogs-f55k.onrender.com/temper');
                 //  console.log("tus temperamentos",temperaments);
    
             return dispatch({
@@ -83,7 +83,7 @@ export function filterCreated(payload){
 }
 export function postDog(payload){
     return async function(dispatch) {
-        const post = await axios.post("/dogs", payload)
+        const post = await axios.post("https://backpidogs-f55k.onrender.com/dogs", payload)
       //  console.log(post);
         return dispatch ({
             type: POST_DOG,
